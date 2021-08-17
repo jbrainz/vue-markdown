@@ -8,7 +8,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ComputedRef } from 'vue'
+import { defineComponent } from 'vue'
 import { IPost } from '../types/types'
 export default defineComponent({
   props: {

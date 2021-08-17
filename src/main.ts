@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import axios from 'axios'
 import * as mockData from './post/mocks'
 import { router } from './router'
+import 'highlight.js/styles/solarized-dark.css'
 
 const delay = (ms: number) => new Promise((res) => setTimeout(res, ms))
 

@@ -15,7 +15,7 @@
 
 <script lang="ts">
 import { defineComponent, PropType } from 'vue'
-import { IPost, Period } from '../types/types'
+import { Period } from '../types/types'
 
 export default defineComponent({
   name: "Periods",

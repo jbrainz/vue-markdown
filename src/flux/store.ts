@@ -28,7 +28,7 @@ class Store {
     this.state = reactive(initialState)
   }
   public getState(): IState {
-    return readonly(this.state)
+    return this.state
   }
 
   async fetchPost() {

@@ -1,6 +1,7 @@
 import { mount } from '@vue/test-utils'
 import Home from '../pages/Home.vue'
 import flushPromises from 'flush-promises'
+
 import * as mockData from '../post/mocks'
 
 jest.mock('axios', () => ({

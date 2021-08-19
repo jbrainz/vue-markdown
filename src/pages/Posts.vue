@@ -1,6 +1,6 @@
 <template>
   <div>
-    <PostWritter :post="post" />
+    <PostWritter :post="post" @save="save" />
   </div>
 </template>
 
@@ -23,8 +23,10 @@ export default defineComponent({
       authorId: 12,
       created: moment()
     }
+    const save = (post: IPost) => console.log("Calling the emit func", post)
     return {
-      post
+      post,
+      save
     }
   }
 })
